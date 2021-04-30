@@ -11,7 +11,8 @@ export class AppComponent implements OnInit {
   itens: any = [];
 
   ngOnInit() {
-    for (let i = 1; i < 100000; i++)
-    this.itens.push(`Item ${i}`);
+    for (let i = 1; i < 100000; i++) {
+      this.itens.push(`Item ${i}`);
+    }
   }
 }
